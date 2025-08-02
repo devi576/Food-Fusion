@@ -13,3 +13,21 @@ It features:
 - 🌐 Easily expandable for future API/backend integration
 
 Perfect for learning or demonstrating frontend e-commerce concepts in React.
+🧰 Tech Stack
+Frontend: React, Redux Toolkit, Vite
+
+Styling: CSS Modules / Plain CSS
+
+State Management: Redux
+
+Routing: React Router (if applicable)
+
+Deployment: Netlify / GitHub Pages
+
+
+📬 Contact
+Created with ❤️ by Mahamkali Ramadevi
+
+📧 Email: ramamahamkali18@gmail.com
+
+
