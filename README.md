@@ -1,12 +1,15 @@
-# React + Vite
+## 🍱 Food E-Commerce App – React + Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern and responsive food e-commerce application where users can browse a variety of vegetarian and non-vegetarian dishes, add them to their cart, manage quantities, and place orders.
 
-Currently, two official plugins are available:
+The project is built using **React**, **Redux Toolkit**, and **Vite**, and styled with custom CSS for a clean, mobile-friendly user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It features:
 
-## Expanding the ESLint configuration
+- 🥗 Organized categories (Veg / Non-Veg)
+- 🛒 Shopping cart with add/remove functionality
+- 🖼️ Dynamic images and descriptions
+- ⚡ Fast performance using Vite
+- 🌐 Easily expandable for future API/backend integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Perfect for learning or demonstrating frontend e-commerce concepts in React.
