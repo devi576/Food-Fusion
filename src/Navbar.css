@@ -1,0 +1,30 @@
+.navbar {
+  background-color:rgb(217, 9, 144);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.navbar-title {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 55px;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;         /* Removes underline */
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: color 0.3s ease;   /* Smooth color change */
+}
+
+

@@ -1,0 +1,78 @@
+/* Background with overlay */
+.contact-page {
+   /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  min-width: 20vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  flex: 1;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-left,
+.contact-right {
+  flex: 1;
+  padding: 30px;
+}
+
+.contact-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Form Styling */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.contact-footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}

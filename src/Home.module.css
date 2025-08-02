@@ -1,0 +1,70 @@
+/* Home.module.css */
+.homeContainer {
+  background-image: url('/images/bg-food.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: #333;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+.topText {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #db51c1;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.bottomText {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #e82784;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.cardButton {
+  background-color: rgb(235, 22, 189);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
